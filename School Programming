@@ -1,4 +1,6 @@
+schools programming:-
 
+SWAP:-
 
 var number1 = prompt("Enter the first number);
 var number2 = prompt("Enter the second number");
@@ -10,12 +12,17 @@ console.log("Values after swap: number1 = "+number1+"and number2="+number2);
 
 
 
+Leap year or not:-
+
 var inputyear = prompt("Enter the year");
 if(inputyear % 400 == 0)
 console.log(inputyear + " is a leap year");
-else if(inputyear % 100 == 0)
-console.log(inputyear + " is a leap year");
-else if (inputyear % 4 == 0)
+else if((inputyear % 4 == 0)&& (inputyear%100!=0))
 console.log(inputyear + " is a leap year");
 else
 console.log(inputyear + " is not a leap year");
+
+
+
+
+
